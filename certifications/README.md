@@ -23,8 +23,10 @@ Focus areas:
 
 > Passed the official hands-on lab exam.
 
-(🔗 Digital badge link will be added once issued via Credly.)
-https://www.credly.com/badges/55215e6e-42f5-4366-840e-ec926baea550/public_url
+![CKA Badge](./cka/badge.png)
+
+🔗 Verify: https://www.credly.com/badges/55215e6e-42f5-4366-840e-ec926baea550/public_url
+
 ---
 
 ## 📜 National & Professional Certifications
@@ -72,5 +74,6 @@ Public verification links and digital badges will be added once available.
 If needed, please contact me through GitHub or LinkedIn.
 
 ---
+
 
 
