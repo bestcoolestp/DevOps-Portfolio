@@ -1,0 +1,84 @@
+pipeline {
+  agent any
+
+  environment {
+    CLUSTER_NAME = "devops-portfolio"
+    KUBECONFIG   = "/var/jenkins_home/kubeconfig"
+    NAMESPACE    = "sample-app"
+    IMAGE        = "k8s-sample-app:1.0"
+  }
+
+  stages {
+    stage('Info') {
+      steps {
+        sh '''
+          set -eux
+          docker version
+          kind --version
+          kubectl version --client
+          kubectl get nodes
+        '''
+      }
+    }
+
+    stage('Build Docker Image') {
+      steps {
+        sh '''
+          set -eux
+          cd k8s-projects/sample-app-deploy/app
+          docker build -t ${IMAGE} .
+        '''
+      }
+    }
+
+    stage('Load Image into kind') {
+      steps {
+        sh '''
+          set -eux
+          kind load docker-image ${IMAGE} --name ${CLUSTER_NAME}
+        '''
+      }
+    }
+
+    stage('Deploy to Kubernetes') {
+      steps {
+        sh '''
+          set -eux
+          cd k8s-projects/sample-app-deploy/k8s
+          kubectl apply -f namespace.yaml
+          kubectl apply -f deployment.yaml
+          kubectl apply -f service.yaml
+          kubectl rollout status deployment/sample-app -n ${NAMESPACE} --timeout=120s
+          kubectl get pods -n ${NAMESPACE}
+          kubectl get svc -n ${NAMESPACE}
+        '''
+      }
+    }
+
+    stage('Smoke Test') {
+      steps {
+        sh '''
+          set -eux
+          # port-forward in background
+          kubectl port-forward svc/sample-app -n ${NAMESPACE} 8080:80 >/tmp/pf.log 2>&1 &
+          PF_PID=$!
+          sleep 2
+
+          # request endpoint
+          curl -sSf http://localhost:8080 | head -c 200
+
+          # cleanup
+          kill $PF_PID
+        '''
+      }
+    }
+  }
+
+  post {
+    always {
+      sh '''
+        kubectl get pods -n sample-app || true
+      '''
+    }
+  }
+}
