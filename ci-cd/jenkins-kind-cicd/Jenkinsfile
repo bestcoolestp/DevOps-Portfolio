@@ -65,10 +65,17 @@ pipeline {
           sleep 2
 
           # request endpoint
-          curl -sSf http://localhost:8080 | head -c 200
+          curl -sSf http://localhost:8080/health | head -c 200
 
+          for i in $(seq 1 10); do
+            if curl -sS -o /dev/null http://localhost:8080/health ; then
+                break
+            fi
+            sleep 1
+            done
+        
           # cleanup
-          kill $PF_PID
+          kill ${PF_PID} || true
         '''
       }
     }
