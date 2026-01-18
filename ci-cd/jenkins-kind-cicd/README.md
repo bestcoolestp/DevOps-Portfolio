@@ -140,9 +140,3 @@ For this demo, kubeconfig uses `insecure-skip-tls-verify: true` so Jenkins can r
 - Least privilege credentials per namespace  
 - Centralized secrets management  
 ```
-
----
-
-This version is **structured, scannable, and professional**. It keeps all your troubleshooting notes (which are super valuable for others) but organizes them into clear sections.  
-
-Would you like me to also create a **short summary version** (like an “executive README”) for the `ci-cd/README.md` index so readers don’t have to scroll through all the details unless they dive into this subfolder?
