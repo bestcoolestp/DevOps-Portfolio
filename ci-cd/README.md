@@ -24,4 +24,3 @@ A minimal but complete CI/CD loop that shows reproducible delivery and operation
 
 ---
 
-*(Add more sections here as you create additional CI/CD case studies.)*
