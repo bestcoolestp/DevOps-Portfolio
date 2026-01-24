@@ -12,4 +12,4 @@ Each entry includes:
 
 ## Highlights (curated)
 - 2025-11-23 — Global vs Regional Services (IAM / Route 53 / CloudFront / WAF)
-- (Add links as you go)
+- 
