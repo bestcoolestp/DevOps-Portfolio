@@ -1,6 +1,6 @@
 # 2025-11-23 — Global vs Regional Services (IAM, Route 53, CloudFront, WAF)
 
-**Source:** Stephane Maarek — AWS SAA course (daily notes)  
+**Source:** Stephane Maarek — AWS SAA course
 **SAA domains:** Security • Resilient Architectures • High-Performing Architectures
 
 ## Key takeaways
@@ -26,3 +26,11 @@
 - Console path: **Route 53 → Hosted zones → Create record → Routing policy**
 - Console path: **CloudFront → Distributions → Behaviors / Origins**
 - Follow-up lab idea: Put S3 behind CloudFront, add WAF managed rule group, test blocked patterns.
+
+## My practical insight (what I want to remember)
+- In most real designs, “global services” are the **front door** (Route 53 / CloudFront),
+  while the actual workload still runs in a **specific region** (ALB/EC2/EKS/RDS).
+- WAF questions usually become easy once I decide **where it attaches**:
+  CloudFront = global edge protection, ALB = regional protection.
+- When an exam scenario says “worldwide users + low latency”, I now mentally think:
+  **Route 53 routing choice + CloudFront caching strategy**, then choose the simplest option.
