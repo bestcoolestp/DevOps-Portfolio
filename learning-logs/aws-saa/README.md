@@ -10,6 +10,4 @@ Each entry includes:
 - micro-scenarios (how I’d answer)
 - hands-on proof or lab follow-up
 
-## Highlights (curated)
-- 2025-11-23 — Global vs Regional Services (IAM / Route 53 / CloudFront / WAF)
-- 
+ 
