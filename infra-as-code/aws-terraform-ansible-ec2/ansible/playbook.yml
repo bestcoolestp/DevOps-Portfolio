@@ -1,0 +1,28 @@
+- name: Bootstrap Docker and run web container
+  hosts: web
+  become: true
+  gather_facts: false
+
+  tasks:
+    - name: Update apt cache
+      ansible.builtin.apt:
+        update_cache: yes
+        cache_valid_time: 3600
+
+    - name: Install Docker
+      ansible.builtin.apt:
+        name: docker.io
+        state: present
+
+    - name: Ensure Docker is running
+      ansible.builtin.service:
+        name: docker
+        state: started
+        enabled: true
+
+    - name: Run demo web container
+      ansible.builtin.shell: |
+        docker rm -f hello-web >/dev/null 2>&1 || true
+        docker run -d --name hello-web -p 80:80 nginxdemos/hello
+      args:
+        executable: /bin/bash
