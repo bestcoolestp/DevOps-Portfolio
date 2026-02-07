@@ -1,3 +1,31 @@
-# VS Code / Docker Desktop generated
-k8s-projects/sample-app-deploy/DockerDesktopWSL/
+# =========================
+# Terraform
+# =========================
+.terraform/
 **/.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# =========================
+# SSH / Keys
+# =========================
+*.pem
+*.key
+*.pub
+ansible/keys/*
+!ansible/keys/README.md
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Docker Desktop (Windows)
+# =========================
+k8s-projects/sample-app-deploy/DockerDesktopWSL/
