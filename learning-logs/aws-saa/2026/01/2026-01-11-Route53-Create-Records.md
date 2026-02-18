@@ -95,7 +95,6 @@ Think Route 53 record creation when you see:
 * need to verify with dig/nslookup
 * DNS works but website unreachable
 
-```
 
 ## 🧠 My Takeaway
 
@@ -111,6 +110,3 @@ In real architectures, these records typically point to:
 * EC2 public IPs
 * Load balancers
 * CloudFront distributions
-
----
-
