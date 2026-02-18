@@ -87,6 +87,7 @@ dig test.stephanetheteacher.com
 * Record type → A
 
 ---
+
 ## ✅ Exam Signals
 
 Think Route 53 record creation when you see:
@@ -95,6 +96,7 @@ Think Route 53 record creation when you see:
 * need to verify with dig/nslookup
 * DNS works but website unreachable
 
+---
 
 ## 🧠 My Takeaway
 
