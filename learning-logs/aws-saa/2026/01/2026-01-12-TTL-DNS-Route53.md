@@ -85,8 +85,8 @@ Result: domain resolves to the EC2 instance.
 Using browser and CLI:
 
 ```bash
-nslookup demo.stephanetheteacher.com
-dig demo.stephanetheteacher.com
+$ nslookup demo.stephanetheteacher.com
+$ dig demo.stephanetheteacher.com
 ```
 
 **Observed behavior**
