@@ -87,7 +87,7 @@ Using browser and CLI:
 ```bash
 nslookup demo.stephanetheteacher.com
 dig demo.stephanetheteacher.com
-````
+```
 
 **Observed behavior**
 
