@@ -1,4 +1,3 @@
-````markdown
 2026-01-12 / 2026-01-13 — TTL (Time To Live) in DNS — Route 53  
 Source: Stephane Maarek — AWS SAA  
 Theme: DNS caching behavior and propagation control
@@ -86,6 +85,7 @@ Using browser and CLI:
 
 ```bash
 nslookup demo.stephanetheteacher.com
+dig demo.stephanetheteacher.com
 ```
 
 **Observed behavior**
