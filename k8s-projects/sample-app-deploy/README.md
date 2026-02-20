@@ -38,17 +38,16 @@ Components:
   - Deployment
   - Service (ClusterIP)
 
-```
+
 
 ## 📸 Screenshots
 
 Local Docker container (no Kubernetes yet):
-
-![App running via Docker on localhost:3000](./images/local-docker-3000.png)
+![App running via Docker on localhost:3000](images/local-docker-3000.png)
 
 Same app running inside Kubernetes (port-forward on localhost:8080):
 
-![App running in Kubernetes via port-forward on localhost:8080](./images/k8s-port-forward-8080.png)
+![App running in Kubernetes via port-forward on localhost:8080](images/k8s-port-forward-8080.png)
 
 ---
 
@@ -58,7 +57,7 @@ Build image locally:
 
 ```bash
 docker build -t k8s-sample-app:1.0 .
-```
+
 
 Load into the kind cluster:
 
@@ -235,4 +234,5 @@ kind delete cluster --name devops-portfolio
 Then recreate whenever needed.
 
 ---
+
 
