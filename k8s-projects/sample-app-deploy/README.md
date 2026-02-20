@@ -57,7 +57,7 @@ Build image locally:
 
 ```bash
 docker build -t k8s-sample-app:1.0 .
-
+```
 
 Load into the kind cluster:
 
@@ -234,5 +234,6 @@ kind delete cluster --name devops-portfolio
 Then recreate whenever needed.
 
 ---
+
 
 
