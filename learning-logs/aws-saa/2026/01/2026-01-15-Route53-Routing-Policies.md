@@ -221,5 +221,3 @@ Route 53 routing policies are **DNS answer strategies**, not traffic routers.
 - Latency = performance optimization  
 
 The architectural skill is choosing the policy that matches the **deployment topology and user distribution**.
-
-```
