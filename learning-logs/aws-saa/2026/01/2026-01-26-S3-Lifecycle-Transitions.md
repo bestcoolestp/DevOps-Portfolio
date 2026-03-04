@@ -201,8 +201,7 @@ Architecture:
 
 ```
 
-Noncurrent → Standard-IA
-→ Glacier Deep Archive
+Noncurrent → Standard-IA → Glacier Deep Archive
 
 ```
 
