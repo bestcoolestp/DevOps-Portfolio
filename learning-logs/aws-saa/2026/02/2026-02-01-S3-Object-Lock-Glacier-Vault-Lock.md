@@ -240,4 +240,3 @@ Both are foundational for **compliance-grade storage architectures**.
 # One-Line Summary
 
 Glacier Vault Lock enforces irreversible WORM policies at the vault level, while S3 Object Lock protects individual object versions with retention rules and optional legal holds.
-```
