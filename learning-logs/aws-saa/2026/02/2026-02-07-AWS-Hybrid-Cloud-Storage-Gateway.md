@@ -10,7 +10,6 @@ Theme: bridging on-prem systems with cloud storage without rewriting everything
 
 Most systems are not fully cloud-native.
 
-```
 
 On-Prem ↔ AWS Cloud
 
@@ -37,7 +36,6 @@ Drivers:
 
 # 🔌 Storage Gateway — Core Idea
 
-```
 
 On-Prem Apps → Gateway (VM) → AWS Storage (S3/Glacier)
 
@@ -53,7 +51,6 @@ It abstracts cloud storage behind familiar protocols:
 
 ## When to Use
 
-```
 
 “Make S3 look like a file system”
 
@@ -63,7 +60,6 @@ It abstracts cloud storage behind familiar protocols:
 
 ## Architecture
 
-```
 
 On-Prem Server → NFS/SMB → File Gateway → HTTPS → S3
 
@@ -92,7 +88,6 @@ On-Prem Server → NFS/SMB → File Gateway → HTTPS → S3
 
 ## When to Use
 
-```
 
 “Extend block storage to the cloud”
 
@@ -110,7 +105,6 @@ On-Prem Server → NFS/SMB → File Gateway → HTTPS → S3
 
 ### Cached Volumes
 
-```
 
 Primary = S3
 Cache = On-Prem
@@ -123,7 +117,6 @@ Cache = On-Prem
 
 ### Stored Volumes
 
-```
 
 Primary = On-Prem
 Backup = S3 (snapshots)
@@ -146,7 +139,6 @@ Backup = S3 (snapshots)
 
 ## When to Use
 
-```
 
 “Replace physical tapes without changing backup software”
 
@@ -155,7 +147,6 @@ Backup = S3 (snapshots)
 
 ## Architecture
 
-```
 
 Backup Software → iSCSI VTL → Tape Gateway → S3 → Glacier
 
@@ -188,7 +179,6 @@ Gateway runs as:
 
 ## Key Insight
 
-```
 
 Placement = latency decision
 
@@ -212,7 +202,6 @@ Placement = latency decision
 
 ## 1. Backup Modernization
 
-```
 
 On-Prem → Volume Gateway → S3 → Glacier
 
@@ -221,7 +210,6 @@ On-Prem → Volume Gateway → S3 → Glacier
 
 ## 2. Hybrid File System
 
-```
 
 On-Prem Apps → File Gateway → S3 (+ lifecycle → Glacier)
 
@@ -230,7 +218,6 @@ On-Prem Apps → File Gateway → S3 (+ lifecycle → Glacier)
 
 ## 3. Legacy Tape Replacement
 
-```
 
 Backup Software → Tape Gateway → Glacier
 
@@ -258,6 +245,5 @@ Backup Software → Tape Gateway → Glacier
 
 # One-Line Summary
 
-```
 
 AWS Storage Gateway enables hybrid architectures by exposing S3-backed storage to on-prem systems using familiar protocols (NFS, SMB, iSCSI) with caching and lifecycle integration.
