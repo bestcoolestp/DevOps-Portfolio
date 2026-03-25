@@ -220,5 +220,3 @@ Avoid SNS when:
 # One-Line Memory Anchor
 
 > SNS = publish once, route everywhere.
-
----
