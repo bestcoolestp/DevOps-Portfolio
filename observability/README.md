@@ -56,6 +56,7 @@ observability/
 │   ├── service.yaml
 │   └── servicemonitor.yaml
 └── README.md
+```
 
 ## Architecture
 
