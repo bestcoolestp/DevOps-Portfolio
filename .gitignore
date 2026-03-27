@@ -29,3 +29,12 @@ Thumbs.db
 # Docker Desktop (Windows)
 # =========================
 k8s-projects/sample-app-deploy/DockerDesktopWSL/
+
+
+# =========================
+# Prometheus & Grafana
+# =========================
+observability/app/node_modules/
+observability/app/.DS_Store
+k8s-projects/sample-app-deploy/app/node_modules/
+node_modules/
