@@ -114,7 +114,7 @@ myapp:latest
 myapp:v1
 myapp:v2
 
-```id="9lg9ae"
+```
 
 Best Practice
 
@@ -124,7 +124,7 @@ Avoid:
 
 latest
 
-```id="k5m5s5"
+```
 
 Prefer:
 
@@ -138,7 +138,7 @@ Example
 myapp:2026-02-25
 myapp:commit-abc123
 
-```id="h59sya"
+```
 
 ---
 
