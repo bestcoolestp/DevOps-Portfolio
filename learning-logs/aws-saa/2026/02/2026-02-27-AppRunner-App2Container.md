@@ -34,13 +34,6 @@ Result:
 
 Public URL generated automatically
 
-Example
-
-```
-
-[https://myapp.awsapprunner.com](https://myapp.awsapprunner.com)
-
-```
 
 ---
 
