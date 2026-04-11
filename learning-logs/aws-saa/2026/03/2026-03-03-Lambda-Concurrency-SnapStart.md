@@ -65,13 +65,8 @@ Guarantees:
 
 Special Case
 
-Set concurrency to:
+Set concurrency to: 0
 
-```
-
-0
-
-```
 
 Result
 
