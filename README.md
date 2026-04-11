@@ -1,27 +1,4 @@
 # DevOps-Portfolio
-DevOps &amp; SRE portfolio – Kubernetes, CI/CD, Terraform, AWS
-
-## Featured DevOps/SRE Projects
-
-### 1) Kubernetes Deployment Case Study (kind)
-- **What:** containerized app deployed to Kubernetes with scaling + self-healing
-- **Link:** `k8s-projects/sample-app-deploy/`
-
-### 2) CI/CD Case Study (Jenkins → kind → Kubernetes)
-- **What:** Jenkins pipeline builds image, deploys to Kubernetes, runs smoke test
-- **Link:** `ci-cd/jenkins-kind-cicd/`
-Yes — you should absolutely update your README.
-Your new structure is **much stronger**, and it aligns with how real production systems evolve.
-
-This version tells a **systems story**, not just a list of projects. That's what recruiters notice.
-
-Below is the **clean, production-grade README rewrite** you can paste directly into:
-
-`README.md`
-
----
-
-# DevOps-Portfolio
 
 DevOps & SRE Portfolio — Kubernetes, CI/CD, Terraform, AWS, Observability
 
