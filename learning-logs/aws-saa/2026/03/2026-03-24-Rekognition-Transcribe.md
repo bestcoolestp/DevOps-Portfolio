@@ -76,10 +76,7 @@ Rekognition → A2I → human review
 
 # 4. Architecture Pattern
 
-Upload (S3)  
-→ Lambda  
-→ Rekognition  
-→ Store results (DB/OpenSearch)  
+Upload (S3) → Lambda → Rekognition → Store results (DB/OpenSearch)  
 
 ---
 
@@ -155,22 +152,19 @@ Transcribe = **Speech → Text (ASR)**
 
 ## Call Center Analytics
 
-Audio → Transcribe → S3  
-→ Athena / OpenSearch → insights
+Audio → Transcribe → S3 → Athena / OpenSearch → insights
 
 ---
 
 ## Real-Time Captions
 
-Stream → Transcribe (streaming)  
-→ UI captions
+Stream → Transcribe (streaming) → UI captions
 
 ---
 
 ## Media Indexing
 
-Video/audio → Transcribe  
-→ store text → searchable archive
+Video/audio → Transcribe → store text → searchable archive
 
 ---
 
@@ -178,10 +172,7 @@ Video/audio → Transcribe
 
 Common flow:
 
-S3 (audio)  
-→ Transcribe  
-→ S3 (text)  
-→ Athena / OpenSearch / QuickSight
+S3 (audio) → Transcribe → S3 (text) → Athena / OpenSearch / QuickSight
 
 ---
 
