@@ -123,7 +123,7 @@ Translate = **Text → Text (language conversion)**
 
 Example
 
-````
+```
 
 “EC2” stays “EC2”
 
