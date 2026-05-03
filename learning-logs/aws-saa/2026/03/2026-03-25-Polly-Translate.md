@@ -50,7 +50,7 @@ Custom dictionary:
 
 Example
 
-````
+```
 AWS → Amazon Web Services
 ```
 
