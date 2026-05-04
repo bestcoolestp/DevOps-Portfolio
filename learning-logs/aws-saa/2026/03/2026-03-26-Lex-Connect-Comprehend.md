@@ -32,11 +32,7 @@ Output:
 
 # 2. Architecture Pattern
 
-User (voice/text)  
-→ Lex  
-→ Lambda  
-→ Backend (DB/API)  
-→ Response → User
+User (voice/text) → Lex → Lambda → Backend (DB/API) → Response → User
 
 ---
 
@@ -84,11 +80,7 @@ Connect = **Cloud contact center (call routing + workflows)**
 
 # 2. Architecture Pattern
 
-Caller  
-→ Connect  
-→ (Lex for AI)  
-→ Lambda (business logic)  
-→ Response
+Caller → Connect → (Lex for AI) → Lambda (business logic) → Response
 
 ---
 
@@ -167,10 +159,7 @@ Output:
 
 # 3. Architecture Pattern
 
-Text (S3/API)  
-→ Comprehend  
-→ Structured output  
-→ Store (DB/OpenSearch)
+Text (S3/API) → Comprehend → Structured output → Store (DB/OpenSearch)
 
 ---
 
@@ -208,12 +197,7 @@ Text (S3/API)
 
 End-to-end intelligent system:
 
-User (voice)  
-→ Connect  
-→ Lex (intent)  
-→ Lambda (logic)  
-→ Comprehend (analyze text/history)  
-→ Response  
+User (voice) → Connect → Lex (intent) → Lambda (logic) → Comprehend (analyze text/history) → Response  
 
 ---
 
