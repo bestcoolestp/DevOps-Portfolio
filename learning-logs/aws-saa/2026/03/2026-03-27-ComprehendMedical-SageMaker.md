@@ -43,29 +43,19 @@ Finds:
 
 # 2. Architecture Pattern
 
-S3 (medical text)  
-→ Comprehend Medical  
-→ Structured output  
-→ Store (DB / S3 / OpenSearch)
+S3 (medical text) → Comprehend Medical → Structured output → Store (DB / S3 / OpenSearch)
 
 ---
 
 ## Voice Pipeline (Common)
 
-Audio  
-→ Transcribe  
-→ Text  
-→ Comprehend Medical  
-→ Insights
+Audio → Transcribe → Text → Comprehend Medical → Insights
 
 ---
 
 ## Streaming Pattern
 
-Kinesis  
-→ Firehose / Lambda  
-→ Comprehend Medical  
-→ Storage/alerts
+Kinesis → Firehose / Lambda → Comprehend Medical → Storage/alerts
 
 ---
 
@@ -128,11 +118,7 @@ SageMaker manages:
 
 # 2. Workflow
 
-Data (S3)  
-→ Training job  
-→ Model artifact  
-→ Endpoint deployment  
-→ Predictions (real-time/batch)
+Data (S3) → Training job → Model artifact → Endpoint deployment → Predictions (real-time/batch)
 
 ---
 
@@ -178,18 +164,13 @@ Data (S3)
 
 ## Batch ML
 
-S3 data  
-→ SageMaker training  
-→ batch predictions  
-→ S3
+S3 data → SageMaker training → batch predictions → S3
 
 ---
 
 ## Real-Time ML
 
-App  
-→ SageMaker endpoint  
-→ prediction
+App → SageMaker endpoint → prediction
 
 ---
 
@@ -243,11 +224,7 @@ Avoid when:
 
 Pipeline example:
 
-Audio  
-→ Transcribe  
-→ Comprehend Medical  
-→ Structured data  
-→ SageMaker model → predictions
+Audio → Transcribe → Comprehend Medical → Structured data → SageMaker model → predictions
 
 👉 From **raw signals → insights → predictions**
 
