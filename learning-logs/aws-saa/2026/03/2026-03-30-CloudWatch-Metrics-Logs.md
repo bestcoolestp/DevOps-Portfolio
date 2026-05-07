@@ -257,8 +257,7 @@ stats count(*) by sourceIP
 
 Applications → CloudWatch Logs → Logs Insights / OpenSearch  
 
-Metrics  
-→ Dashboards / Alarms / Auto Scaling
+Metrics → Dashboards / Alarms / Auto Scaling
 
 ---
 
