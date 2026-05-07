@@ -227,7 +227,7 @@ Count errors:
 fields @timestamp, @message
 | filter @message like /ERROR/
 | stats count() as errors
-``` id="logs1"
+```
 
 ---
 
@@ -236,7 +236,7 @@ Top IPs:
 ```sql
 stats count(*) by sourceIP
 | sort count desc
-``` id="logs2"
+```
 
 ---
 
