@@ -297,8 +297,7 @@ Key best practices:
 
 Observability stack:
 
-Applications/Servers → Unified Agent → CloudWatch Logs → Live Tail (real-time)  
-→ Logs Insights (historical analysis) → Metrics/Dashboards/Alarms
+Applications/Servers → Unified Agent → CloudWatch Logs → Live Tail (real-time) → Logs Insights (historical analysis) → Metrics/Dashboards/Alarms
 
 👉 End-to-end operational visibility.
 
