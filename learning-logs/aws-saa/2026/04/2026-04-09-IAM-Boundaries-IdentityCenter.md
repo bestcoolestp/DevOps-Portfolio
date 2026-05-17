@@ -410,4 +410,3 @@ Permission Boundaries + IAM Identity Center provide:
 
 ---
 
-## References
