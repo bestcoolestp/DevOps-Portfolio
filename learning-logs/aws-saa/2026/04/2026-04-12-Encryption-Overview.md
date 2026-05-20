@@ -256,7 +256,7 @@ AWS cannot read contents.
 
 Many AWS encryption services integrate with:
 
-````text
+```text
 AWS KMS
 ```
 
