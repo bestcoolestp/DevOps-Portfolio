@@ -252,7 +252,7 @@ Shield Advanced can automate Layer 7 mitigation.
 # 9. Shield vs WAF
 
 | Feature | Shield | WAF |
-|---|---|
+|---------|--------|-----|
 | DDoS protection | ✅ | partial |
 | Layer 7 filtering | limited | ✅ |
 | SQL injection filtering | ❌ | ✅ |
