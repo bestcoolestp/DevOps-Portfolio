@@ -110,10 +110,8 @@ Public IPv4 Address
 
 # Why Beginners Love Default VPC
 
-Launch EC2 →
-
 ```text id="vpc11"
-Immediately reachable from Internet
+Launch EC2 → Immediately reachable from Internet
 ```
 
 No networking configuration required.
