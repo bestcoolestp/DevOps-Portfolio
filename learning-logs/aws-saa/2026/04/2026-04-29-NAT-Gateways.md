@@ -735,8 +735,7 @@ Internet Gateway
 ```text id="natgw67"
 Private Subnet
 
-0.0.0.0/0
-→ NAT Gateway
+0.0.0.0/0 → NAT Gateway
 ```
 
 ---
