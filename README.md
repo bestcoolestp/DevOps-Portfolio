@@ -39,7 +39,37 @@ The projects are organized to reflect how modern systems are built and operated:
 
 ---
 
-# 2️⃣ Cloud Infrastructure Case Study — Terraform + Ansible (AWS EC2)
+### 2️⃣ Production Incident Case Study — HTTP 500 Member Synchronization
+
+📂 `production-incidents/http500-member-sync`
+
+**What this shows**
+
+- Investigation and resolution of a production member synchronization failure caused by intermittent HTTP 500 responses from an external Student Information API.
+- Root cause analysis using structured logging, SQL validation, and API response inspection.
+- Defensive JSON validation and resilient synchronization logic to prevent malformed responses from terminating the synchronization process.
+
+**Key skills demonstrated**
+
+- Production Incident Response
+- Root Cause Analysis
+- Reliability Engineering
+- REST API Troubleshooting
+- Defensive Programming
+- Structured Logging
+- ASP.NET MVC / C# / MySQL
+
+**Highlights**
+
+- Identified malformed API responses (`status=500`, `data=""`) as the true source of synchronization failures.
+- Eliminated synchronization interruptions through validation and graceful failure handling.
+- Successfully synchronized 34,000+ member records with zero post-fix synchronization errors.
+
+🔗 **View Project:** [production-incidents/http500-member-sync](./production-incidents/http500-member-sync)
+
+---
+
+# 3️⃣ Cloud Infrastructure Case Study — Terraform + Ansible (AWS EC2)
 
 📂 `infra-as-code/aws-terraform-ansible-ec2`
 
@@ -69,7 +99,7 @@ The projects are organized to reflect how modern systems are built and operated:
 
 ---
 
-# 3️⃣ CI/CD Case Study — Jenkins → Kubernetes (kind)
+# 4️⃣ CI/CD Case Study — Jenkins → Kubernetes (kind)
 
 📂 `ci-cd/jenkins-kind-cicd`
 
@@ -93,7 +123,7 @@ The projects are organized to reflect how modern systems are built and operated:
 
 ---
 
-# 4️⃣ Kubernetes Reliability Case Study — Application Deployment & Scaling
+# 5️⃣ Kubernetes Reliability Case Study — Application Deployment & Scaling
 
 📂 `k8s-projects/sample-app-deploy`
 
