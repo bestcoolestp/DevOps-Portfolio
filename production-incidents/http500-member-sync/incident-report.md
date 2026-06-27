@@ -9,7 +9,7 @@
 * ASP.NET MVC (.NET Framework)
 * External Student Information API Integration
 * MySQL
-* Visual Studio 2012
+* Visual Studio
 * Production Deployment Environment
 
 ---
