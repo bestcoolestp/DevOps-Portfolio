@@ -39,7 +39,7 @@ The projects are organized to reflect how modern systems are built and operated:
 
 ---
 
-### 2️⃣ Production Incident Case Study — HTTP 500 Member Synchronization
+# 2️⃣ Production Incident Case Study — HTTP 500 Member Synchronization
 
 📂 `production-incidents/http500-member-sync`
 
