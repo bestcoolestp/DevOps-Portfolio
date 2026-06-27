@@ -4,6 +4,14 @@
 
 Investigated and resolved a production synchronization failure caused by intermittent HTTP 500 responses from an external Student Information API.
 
+## Architecture Overview
+
+![Member Synchronization Architecture](images/member-sync-architecture.png)
+
+The synchronization service retrieves employee and student records from an external Student Information API, validates responses, stages data in temporary tables, and updates the primary member database.
+
+The production incident occurred when the API returned an HTTP 500 response with an invalid JSON structure. Validation logic was added to ensure malformed responses are handled gracefully without terminating the synchronization process.
+
 ## Technologies
 
 - ASP.NET MVC

@@ -1,5 +1,9 @@
 # Production Incident Report — HTTP 500 Member Synchronization Failure
 
+## System Architecture
+
+![Member Synchronization Architecture](images/member-sync-architecture.png)
+
 ## Incident Date
 
 2026-XX-XX
