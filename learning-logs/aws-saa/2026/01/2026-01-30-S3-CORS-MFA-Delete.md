@@ -327,5 +327,3 @@ MFA Delete
 Adds MFA verification before permanently deleting object versions or disabling versioning in S3.
 
 ```
-
-

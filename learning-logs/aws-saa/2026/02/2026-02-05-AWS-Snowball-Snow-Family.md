@@ -255,4 +255,3 @@ Never directly to Glacier.
 ```
 
 AWS Snowball is a physical data transfer device used to migrate large datasets and run edge workloads when network transfers are slow or unreliable.
-
