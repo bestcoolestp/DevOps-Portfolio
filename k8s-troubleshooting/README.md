@@ -17,8 +17,8 @@ Rather than simply presenting solutions, each scenario follows a structured trou
 
 | # | Scenario | Status |
 |---|----------|--------|
-| 01 | CrashLoopBackOff | ✅ |
-| 02 | ImagePullBackOff | ⏳ |
+| 01 | CrashLoopBackOff | ⏳ |
+| 02 | ImagePullBackOff | ✅ |
 | 03 | Pending Pod | ⏳ |
 | 04 | Service Connectivity | ⏳ |
 | 05 | Ingress | ⏳ |
