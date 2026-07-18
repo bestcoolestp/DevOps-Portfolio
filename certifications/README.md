@@ -7,6 +7,34 @@ Below are the certifications I’ve earned so far — focused on software engine
 
 ## 🌟 Core Certifications (Most Relevant to DevOps / SRE)
 
+### ☁️ AWS Certified Solutions Architect – Associate (SAA)
+
+**Issuer:** Amazon Web Services (AWS)  
+**Date:** Jun 13, 2026  
+**Expires:** Jun 13, 2029  
+**Validation Number:** (available upon request)
+
+Focus areas:
+
+- Designing resilient cloud architectures
+- Designing high-performing architectures
+- Designing secure applications and infrastructure
+- Designing cost-optimized architectures
+- AWS networking (VPC, Route 53, ELB)
+- Compute (EC2, ECS, EKS, Lambda)
+- Storage (S3, EBS, EFS)
+- Databases (RDS, DynamoDB)
+- Identity & Access Management (IAM)
+- Monitoring & Operational Excellence (CloudWatch, CloudTrail)
+
+> Passed the official AWS Certified Solutions Architect – Associate exam.
+
+![AWS SAA Badge](./aws-saa/badge.png)
+
+🔗 Verify: https://www.credly.com/badges/c507069b-8dee-4171-935d-f4a6c7b89df3
+
+
+
 ### 🛠️ Certified Kubernetes Administrator (CKA)
 **Issuer:** The Linux Foundation  
 **Date:** Nov 8, 2025  
