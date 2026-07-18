@@ -31,7 +31,7 @@ Focus areas:
 
 ![AWS SAA Badge](./aws-saa/badge.png)
 
-🔗 Verify: https://www.credly.com/badges/c507069b-8dee-4171-935d-f4a6c7b89df3
+🔗 Verify: https://www.credly.com/badges/c507069b-8dee-4171-935d-f4a6c7b89df3/public_url
 
 
 
