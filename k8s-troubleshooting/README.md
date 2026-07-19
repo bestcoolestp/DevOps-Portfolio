@@ -16,11 +16,12 @@ Rather than simply presenting solutions, each scenario follows a structured trou
 ## Scenarios
 
 | # | Scenario | Status |
-|---|----------|--------|
-| 01 | CrashLoopBackOff | ⏳ |
-| 02 | ImagePullBackOff | ✅ |
-| 03 | Pending Pod | ✅ |
-| 04 | Service Connectivity | ⏳ |
-| 05 | Ingress | ⏳ |
+|---|------------------------------------------|--------|
+| 01 | ImagePullBackOff | ✅ |
+| 02 | Pending Pod (Insufficient CPU) | ✅ |
+| 03 | Pending Pod (Untolerated Taint) | ✅ |
+| 04 | CrashLoopBackOff | ⏳ |
+| 05 | Service Connectivity | ⏳ |
+| 06 | Ingress | ⏳ |
 
 More scenarios will be continuously added.
