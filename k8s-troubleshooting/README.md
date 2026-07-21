@@ -21,7 +21,8 @@ Rather than simply presenting solutions, each scenario follows a structured trou
 | 02 | Pending Pod - Insufficient CPU | ✅ |
 | 03 | Pending Pod - Untolerated Taint | ✅ |
 | 04 | CrashLoopBackOff - Nginx Permission Denied | ✅ |
-| 05 | Service Connectivity | ⏳ |
-| 06 | Ingress | ⏳ |
+| 05 | ContainerCreating - hostPath Not a Directory | ✅ |
+| 06 | Service Connectivity | ⏳ |
+| 07 | Ingress | ⏳ |
 
 More scenarios will be continuously added.
