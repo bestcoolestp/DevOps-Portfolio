@@ -16,13 +16,14 @@ Rather than simply presenting solutions, each scenario follows a structured trou
 ## Scenarios
 
 | # | Scenario | Status |
-|---|---------------------------------------------|--------|
+|---|------------------------------------------------------|--------|
 | 01 | ImagePullBackOff | ✅ |
 | 02 | Pending Pod - Insufficient CPU | ✅ |
 | 03 | Pending Pod - Untolerated Taint | ✅ |
 | 04 | CrashLoopBackOff - Nginx Permission Denied | ✅ |
 | 05 | ContainerCreating - hostPath Not a Directory | ✅ |
-| 06 | Service Connectivity | ⏳ |
-| 07 | Ingress | ⏳ |
+| 06 | Pod Creation - ResourceQuota Exceeded | ✅ |
+| 07 | Service Connectivity | ⏳ |
+| 08 | Ingress | ⏳ |
 
 More scenarios will be continuously added.
