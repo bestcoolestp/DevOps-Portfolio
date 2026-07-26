@@ -23,7 +23,8 @@ Rather than simply presenting solutions, each scenario follows a structured trou
 | 04 | CrashLoopBackOff - Nginx Permission Denied | ✅ |
 | 05 | ContainerCreating - hostPath Not a Directory | ✅ |
 | 06 | Pod Creation - ResourceQuota Exceeded | ✅ |
-| 07 | Service Connectivity | ⏳ |
-| 08 | Ingress | ⏳ |
+| 07 | PodInitializing - Init Container Command Not Found | ✅ |
+| 08 | Service Connectivity | ⏳ |
+| 09 | Ingress | ⏳ |
 
 More scenarios will be continuously added.
