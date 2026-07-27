@@ -72,7 +72,7 @@ For example:
 template:
   metadata:
     labels:
-      app: nginxx
+      app: nignx
 ```
 
 The values must match exactly.
@@ -99,10 +99,10 @@ spec:
   template:
     metadata:
       labels:
-        app: nginxx
+        app: nignx
 ```
 
-Because `nginx` and `nginxx` are different values, Kubernetes rejected the Deployment during API validation.
+Because `nginx` and `nignx` are different values, Kubernetes rejected the Deployment during API validation.
 
 The Deployment was never created, so the scheduler and kubelet were not involved.
 
