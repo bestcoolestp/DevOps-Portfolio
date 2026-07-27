@@ -24,7 +24,8 @@ Rather than simply presenting solutions, each scenario follows a structured trou
 | 05 | ContainerCreating - hostPath Not a Directory | ✅ |
 | 06 | Pod Creation - ResourceQuota Exceeded | ✅ |
 | 07 | PodInitializing - Init Container Command Not Found | ✅ |
-| 08 | Service Connectivity | ⏳ |
-| 09 | Ingress | ⏳ |
+| 08 | Deployment Creation - Selector/Label Mismatch | ✅ |
+| 09 | Service Connectivity | ⏳ |
+| 10 | Ingress | ⏳ |
 
 More scenarios will be continuously added.
