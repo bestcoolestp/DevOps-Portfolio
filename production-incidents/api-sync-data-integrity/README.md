@@ -44,7 +44,7 @@ Education statistics suddenly changed after member synchronization.
 
 ## Current Production Statistics
 
-![Current Statistics](images/01-statistics-current-92.5.png)
+![Current Statistics](images/01-statistics-after-migration-92.5.png)
 
 ```
 Education Targets : 6898
@@ -56,7 +56,7 @@ Completion Rate   : 92.5%
 
 ## Historical Statistics
 
-![Historical Statistics](images/02-statistics-reference-95.3.png)
+![Historical Statistics](images/02-statistics-before-workaround-95.3.png)
 
 ```
 Education Targets : 6659
@@ -99,7 +99,7 @@ This confirmed that the problem was cumulative rather than isolated.
 
 The legacy Oracle synchronization contained an additional workflow after member synchronization.
 
-![Legacy Workflow](images/05-legacy-oracle-workflow.png)
+![Legacy Workflow](images/05-legacy-oracle-sync.png)
 
 ```
 Oracle Synchronization
@@ -137,7 +137,7 @@ This produced stale education target records.
 
 A new cleanup method was introduced immediately after API synchronization.
 
-![API Synchronization Fix](images/06-api-remediation-call.png)
+![API Synchronization Fix](images/06-api-sync-remediation-call.png)
 
 The new method
 
@@ -155,7 +155,7 @@ updates only members satisfying all conditions below.
 
 Implementation:
 
-![Cleanup Method](images/07-delete-active-members-method.png)
+![Cleanup Method](images/07-remediation-method.png)
 
 ---
 
@@ -163,7 +163,7 @@ Implementation:
 
 Additional operational logging was introduced.
 
-![Operational Log](images/08-sync-log-validation.png)
+![Operational Log](images/08-sync-validation-log.png)
 
 Example
 
