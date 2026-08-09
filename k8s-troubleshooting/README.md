@@ -26,7 +26,8 @@ Rather than simply presenting solutions, each scenario follows a structured trou
 | 07 | PodInitializing - Init Container Command Not Found | ✅ |
 | 08 | Deployment Creation - Selector/Label Mismatch | ✅ |
 | 09 | HPA - Metrics Server Unavailable | ✅ |
-| 10 | Service Connectivity | ⏳ |
-| 11 | Ingress | ⏳ |
+| 10 | DaemonSet - Control Plane Taint | ✅ |
+| 11 | Service Connectivity | ⏳ |
+| 12 | Ingress | ⏳ |
 
 More scenarios will be continuously added.
