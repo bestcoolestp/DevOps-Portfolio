@@ -29,6 +29,7 @@ Rather than simply presenting solutions, each scenario follows a structured trou
 | 10 | DaemonSet - Control Plane Taint | ✅ |
 | 11 | Service Connectivity | ✅ |
 | 12 | pending-pod-cordoned-node | ✅ |
-| 13 | Ingress | ⏳ |
+| 13 | node-diskpressure-pod-eviction | ✅ |
+| 14 | Ingress | ⏳ |
 
 More scenarios will be continuously added.
