@@ -30,6 +30,7 @@ Rather than simply presenting solutions, each scenario follows a structured trou
 | 11 | Service Connectivity | ✅ |
 | 12 | pending-pod-cordoned-node | ✅ |
 | 13 | node-diskpressure-pod-eviction | ✅ |
-| 14 | Ingress | ⏳ |
+| 14 | kubeconfig-wrong-api-server | ✅ |
+| 15 | Ingress | ⏳ |
 
 More scenarios will be continuously added.
