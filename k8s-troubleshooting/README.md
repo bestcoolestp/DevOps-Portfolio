@@ -31,6 +31,7 @@ Rather than simply presenting solutions, each scenario follows a structured trou
 | 12 | pending-pod-cordoned-node | ✅ |
 | 13 | node-diskpressure-pod-eviction | ✅ |
 | 14 | kubeconfig-wrong-api-server | ✅ |
-| 15 | Ingress | ⏳ |
+| 15 | pod-priority-preemption | ✅ |
+| 16 | Ingress | ⏳ |
 
 More scenarios will be continuously added.
