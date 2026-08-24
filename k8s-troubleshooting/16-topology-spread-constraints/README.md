@@ -12,7 +12,7 @@ kubectl get pod -o wide
 kubectl get deploy -o wide
 ```
 
-![Pods scheduled on the same node](./images/01-before-pods-same-node.png)
+![Pods scheduled on the same node](01-before-pods-same-node.png)
 
 The cluster had two available nodes:
 
@@ -62,7 +62,7 @@ topologySpreadConstraints:
         app: nginx
 ```
 
-![Topology Spread Constraints configuration](./images/02-topology-spread-config.png)
+![Topology Spread Constraints configuration](02-topology-spread-config.png)
 
 The important configuration is:
 
@@ -109,7 +109,7 @@ I then checked their placement:
 kubectl get pod -o wide
 ```
 
-![Pods distributed across controlplane and node01](./images/03-after-pods-spread.png)
+![Pods distributed across controlplane and node01](03-after-pods-spread.png)
 
 The result showed:
 
