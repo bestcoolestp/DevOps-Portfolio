@@ -32,6 +32,7 @@ Rather than simply presenting solutions, each scenario follows a structured trou
 | 13 | node-diskpressure-pod-eviction | ✅ |
 | 14 | kubeconfig-wrong-api-server | ✅ |
 | 15 | pod-priority-preemption | ✅ |
+| 16 | Topology Spread Constraints | ✅ |
 | 16 | Ingress | ⏳ |
 
 More scenarios will be continuously added.
